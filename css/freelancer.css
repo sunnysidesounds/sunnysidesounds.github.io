@@ -105,7 +105,7 @@ section.success {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  background: #336371; }
+  background: #000; }
   #mainNav a:focus {
     outline: none; }
   #mainNav .navbar-brand {
@@ -163,7 +163,13 @@ header.masthead {
   padding-bottom: 50px;
   text-align: center;
   color: white;
-  background: #18BC9C; }
+  background: #D0D0D0;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  image-rendering: -webkit-optimize-contrast;
+}
   header.masthead img {
     display: block;
     margin: 0 auto 20px; }
@@ -448,3 +454,24 @@ footer {
 .btn:active,
 .btn:focus {
   outline: none; }
+
+
+.sub-header-space {
+  width: 500px;
+  text-transform: none;
+  color: #fff;
+  font-weight: 100;
+  font-size: 11px;
+}
+
+.z-pic {
+  width:300px;
+}
+
+.header-container-fun {
+  color: #000;
+}
+
+header.masthead .intro-text .name {
+  text-transform: none;
+}
